@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Academy Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#sports">Sports Categories</a>
+    <a href="#coaches">Coaches</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#plans">Plans</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#register">Register</a>
+</nav>
+<section id="home">
+    <h2>Welcome to Sports Academy</h2>
+    <p>Join our academy and improve your sports skills.</p>    
+</section>
+<section id="sports">
+    <h2>Our Sports Categories</h2>
+
+    <div class="container">
+        <div class="card">
+            <h3>Cricket</h3>
+            <p>Learn batting, bowling and fielding.</p>
+        </div>
+
+        <div class="card">
+            <h3>Football</h3>
+            <p>Learn football skills and teamwork.</p>
+        </div>
+
+        <div class="card">
+            <h3>Badminton</h3>
+            <p>Improve your badminton techniques.</p>
+        </div>
+
+        <div class="card">
+            <h3>Basketball</h3>
+            <p>Learn shooting and dribbling skills.</p>
+        </div>
+    </div>
+</section>
+
+<section id="coaches">
+    <h2>Our Coaches</h2>
+
+    <div class="container">
+        <div class="card">
+            <h3>Dipak Mohan</h3>
+            <p>Cricket Coach</p>
+        </div>
+
+        <div class="card">
+            <h3>Vishal Koli</h3>
+            <p>Football Coach</p>
+        </div>
+
+        <div class="card">
+            <h3>Ruchika Koli</h3>
+            <p>Badminton Coach</p>
+        </div>
+    </div>
+</section>
+
+<section id="schedule">
+    <h2>Training Schedule</h2>
+
+    <table>
+        <tr>
+            <th>Sport</th>
+            <th>Days</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Cricket</td>
+            <td>Mon - Fri</td>
+            <td>7 AM - 9 AM</td>
+        </tr>
+        <tr>
+            <td>Football</td>
+            <td>Mon - Fri</td>
+            <td>9 AM - 11 AM</td>
+        </tr>
+        <tr>
+            <td>Badminton</td>
+            <td>Tue - Sat</td>
+            <td>4 PM - 6 PM</td>
+        </tr>
+        
+    </table>
+</section>
+
+<section id="plans">
+    <h2>Membership Plans</h2>
+
+    <div class="container">
+        <div class="card">
+            <h3>Basic Plan</h3>
+            <h2>₹500</h2>
+            <p>Per Month</p>
+        </div>
+
+        <div class="card">
+            <h3>Standard Plan</h3>
+            <h2>₹1000</h2>
+            <p>Per Month</p>
+        </div>
+
+        <div class="card">
+            <h3>Premium Plan</h3>
+            <h2>₹1500</h2>
+            <p>Per Month</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Our Gallery</h2>
+
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAIBWkTKx_XfhaK6vi22wvdc5x6THVwYkxFHEHBqRfcA&s=10"
+             alt="Cricket training">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVo5EbNUHst2P3Z_sWVQrIjguvx6TCaYXRyjnWiO4n5w&s=10"
+             alt="Cricket training">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVUa-eX4Pns1776u-djQR_FieRs0XLjchnGVszAnVBzQ&s=10"
+             alt="Badminton training">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIYMoyXJf1QWUKy3PHtp3KkXLWyP0WAifzrLUHWgj-4Q&s=10"
+             alt="Badminton training">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1jEKFMfWiLCCzQSN09QSnBpSd_T81FkDbfMFqFveihg&s=10"
+             alt="Football training">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRazOhrzfvLe6q9iImPRKDx83pE61cA2o_hQPDrDmwYAQ&s=10"
+             alt="football training">
+    </div>
+</section>
+
+<section id="register">
+    <h2>Registration Form</h2>
+
+    <form id="registrationForm">
+
+        <label>Full Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <label>Phone Number:</label>
+        <input type="text" id="phone" placeholder="Enter phone number">
+
+        <label>Select Sport:</label>
+        <select id="sport">
+            <option value="">Select Sport</option>
+            <option value="Cricket">Cricket</option>
+            <option value="Football">Football</option>
+            <option value="Badminton">Badminton</option>
+            
+        </select>
+
+        <label>Select Membership:</label>
+        <select id="plan">
+            <option value="">Select Plan</option>
+            <option value="Basic">Basic</option>
+            <option value="Standard">Standard</option>
+            <option value="Premium">Premium</option>
+        </select>
+
+        <button type="submit">Register Now</button>
+
+        <p id="message"></p>
+
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Sports Academy. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
